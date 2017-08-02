@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta content="何庆权的web前端工程师个人简历，前端学习，前端开发" name="description">
+    	<meta content="web前端，web个人简历，web前端个人简历，前端开发" name="keywords">
+		<meta charset="UTF-8">
+		<title>前端工程师何庆权的简历</title>
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/javascript" src="js/jquery.fullpage.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+		<style type="text/css">
+			.section {
+				text-align: center;
+				font: 50px "Microsoft Yahei";
+				color: #fff;
+			}
+			
+			#menu {
+				margin: 0;
+				padding: 0;
+				position: fixed;
+				left: 10px;
+				top: 10px;
+				list-style-type: none;
+				z-index: 70;
+			}
+			
+			#menu li {
+				float: left;
+				margin: 0 10px 0 0;
+				font-size: 14px;
+			}
+			
+			#menu a {
+				float: left;
+				padding: 10px 20px;
+				background-color: #fff;
+				color: #333;
+				text-decoration: none;
+			}
+			
+			#menu .active a {
+				color: #fff;
+				background-color: #333;
+			}
+			
+			.section {
+				text-align: center;
+				font: 50px "Microsoft Yahei";
+				color: #fff;
+			}
+		</style>
+	</head>
+
+	<body>
+		<ul id="menu">
+			<li data-menuanchor="page1" class="active">
+				<a href="#page1">何庆权</a>
+			</li>
+			<li data-menuanchor="page2">
+				<a href="#page2">关于我的</a>
+			</li>
+			<li data-menuanchor="page3">
+				<a href="#page3">技能站点</a>
+			</li>
+			<li data-menuanchor="page4">
+				<a href="#page4">作品集</a>
+			</li>
+			<li data-menuanchor="page5">
+				<a href="#page5">联系我吧</a>
+			</li>
+		</ul>
+
+		<div id="fullpage">
+			<div class="section p1">
+				<div class="img"><img src="css/20141113180438_wyPFA.jpg"/></div>
+				<h1>在人生的道路上，当你的希望一个个落空的时候，你也要坚定，要沉着。 —— 朗费罗</h1>
+				<p>我叫何庆权</p>
+				<p>一个热爱前端的普通人</p>
+				
+				
+			</div>
+			<div class="section p2">
+				<h1>关于我的</h1>
+				<div class="ul">
+					<ul>
+						<li>
+							<div class="img">
+								<img src="img/nianling.png"/>
+							</div>
+							<p>年龄/23岁</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/xueli.png"/>
+							</div>
+							<p>学历/大专</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/weizhi.png"/>
+							</div>
+							<p>坐标/上海</p>
+						</li>
+						<li>
+							<div class="img">
+								<img src="img/zhuangtai.png"/>
+							</div>
+							<p>状态/离职</p>
+						</li>
+					</ul>
+				</div>
+				<p>湖北黄冈人</p>
+				<p>大学在水电之都-宜昌的一所大专院校就读-湖北三峡职业技术学院</p>
+				<p>高效的自学能力,具备独立分析解决问题能力</p>
+				<p>强烈的自我驱动力,代码强迫症患者</p>
+			</div>
+			<div class="section p3">
+				<h1>技能站点</h1>
+				<p>熟练的掌握了html和css,连接html和css的特性</p>
+				<p>熟悉js的常见应用</p>
+				<p>js框架中使用jq框架较多</p>
+				<p>熟悉Bootstrap框架布局页面</p>
+				<p>善于将设计稿代码化,实现各种页面上的特效</p>
+				<p>了解php跟数据库交互,写过一个增删改查系统</p>
+				<p>熟悉ajax的无刷新交互技术</p>
+			</div>
+			<div class="section p4">
+				<h1>作品集</h1>
+				<p><a target="_blank" href="https://957pei.github.io/jingdong/">仿京东官网首页</a></p>
+				<p><a target="_blank" href="https://957pei.github.io/feifanxueyuan/">仿非凡学校官网首页</a></p>
+				<p><a target="_blank" href="https://957pei.github.io/houtaiguanli/">ABC用户信息管理系统(用户名admin密码admin)</a></p>
+				<p><a target="_blank" href="https://957pei.github.io/QQliulanqi/">仿QQ浏览器首页</a></p>
+				<p><a target="_blank" href="https://957pei.github.io/tanchishe/">贪吃蛇小游戏</a></p>
+				<p><a target="_blank" href="https://957pei.github.io/pintuyouxi/">拼图游戏</a></p>
+			</div>
+			<div class="section p5">
+				<h1>联系我吧</h1>
+				<p>手机:15900746290</p>
+				<p>邮箱:1062164730@qq.com</p>
+				<p>微信:heqingquan11</p>
+			</div>
+		</div>
+		<script>
+			$(function() {
+				$('#fullpage').fullpage({
+					sectionsColor: ['#4BBFC3', '#7BAABE','#1bbc9b', '#7BAABE', '#4BBFC3', '#7BAABE'], //定义背景颜色
+					anchors: ['page1', 'page2', 'page3', 'page4', 'page5'], //定义描点
+					menu: '#menu',
+					scrollingSpeed: 500, //滚屏速度
+					css3: true,
+					navigation: true, //侧边导航栏
+//					navigationTooltips: ["第一屏", "第二屏", "第三屏", "第四屏", "第三屏", "第四屏"], //侧边导航栏提示文字
+					//					loopBottom:true,//滚动到最底部后是否滚回顶部
+					//					loopTop:true,//滚动到最顶部后是否滚底部
+//					continuousVertical: true, //是否循环滚动，与 loopTop 及 loopBottom 不兼容
+					afterLoad:function(){},
+					onLeave:function(){},
+					afterRender:function(){},
+					afterRender:function(){},
+					afterRender:function(){},
+				});
+				setInterval(function() {
+//					$.fn.fullpage.moveSectionDown();//自动滚动
+				},2000);
+			});
+		</script>
+	</body>
+
+</html>

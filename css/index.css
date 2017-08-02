@@ -1,0 +1,106 @@
+*{
+	font-family: "å¾®è½¯é›…é»‘";
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+li{
+	list-style: none;
+}
+.p1{}
+.p1 div{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 30px auto ;
+}
+.p1 div img{
+	width: inherit;
+	height: inherit;
+}
+.p1 h1{
+	font-size: 24px;
+	width: 1130px;
+	margin:46px auto 0px;
+	padding-bottom: 20px;
+	border-bottom: 1px #FFFFFF solid;
+}
+.p1 p{
+	font-size: 18px;
+	line-height: 2em;
+}
+
+.p2{}
+.p2 h1{
+	font-size: 24px;
+	text-align: center;
+}
+.p2 .ul{}
+.p2 .ul ul{
+	height: 120px;
+	width: 760px;
+	margin: 60px auto;
+	
+}
+.p2 .ul ul li{
+	float: left;
+	font-size: 18px;
+	margin: 0px 50px;
+}
+.p2 .ul ul li .img{
+	width: 60px;
+	height: 80px;
+	overflow: hidden;
+	text-align: center;
+	/*border-radius: 50%;*/
+}
+.p2 .ul ul li .img img{
+	width: 40px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 40px;
+	line-height: 90px;
+	
+}
+.p2 .ul ul li p{}
+.p2 p{
+	font-size: 18px;
+	text-align: center;
+}
+
+.p3{}
+.p3 h1{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.p3 p{
+	font-size: 18px;
+	text-align: center;
+}
+
+.p4 h1{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.p4 p{
+	font-size: 18px;
+	text-align: center;
+}
+.p4 p a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.p5 h1{
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.p5 p{
+	font-size: 18px;
+	text-align: center;
+}
